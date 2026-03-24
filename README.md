@@ -22,14 +22,13 @@ This repository contains a professional end-to-end automation framework built wi
    ```bash
    npm install
 Install Playwright browsers:
-
-Bash
+```bash
 npx playwright install
+   
 Run all tests:
-
-Bash
+```bash
 npx playwright test --headed
-View the test report:
 
-Bash
+View the test report:
+```bash
 npx playwright show-report
